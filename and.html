@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarthak ki peheli website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        .para {
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 5px;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="jquery/jquery.js"></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand active" href="index.html">Sarthak
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXteh_X-RRKyXmM3nZm92kdH550v7a_tYVEA&usqp=CAU"
+                    width="45" height="40" class="me-2" viewBox="0 0 118 94" role="img" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/reachus.html">Reach us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/index.html">WEB DEV MERN</a></li>
+                            <li><a class="dropdown-item" href="/index.html">Android programming</a></li>
+                            <li><a class="dropdown-item" href="/index.html">Data Science</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/reachus.html">Join us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn primary" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                    <button class="btn btn primary" data-bs-toggle="modal" data-bs-target="#SignUpModal">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="para">
+        <h2>
+            Android programming
+        </h2>
+        <img src="data:image/jpeg;base64,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" style="float:right; width:420px;height:300px;">
+        <p>
+
+            Are you eager to dive into the world of Android app development but don't know where to start? This
+            comprehensive guide will walk you through the essential steps to become a proficient Android developer.
+
+            <b>A Roadmap to Mastering Android Development</b>
+            Are you eager to dive into the world of Android app development but don't know where to start? This
+            comprehensive guide will walk you through the essential steps to become a proficient Android developer.
+
+            <b>1. Choosing Your Development Language
+</b>
+            <p>Before embarking on your Android development journey, you need to decide which programming language to
+            learn. The market offers several options, including Java, Kotlin, and Flutter. For beginners, Java is an
+            excellent choice. It provides a solid foundation, and once you're comfortable with it, transitioning to
+            Kotlin becomes seamless. Flutter, on the other hand, is a hybrid language that allows you to develop apps
+            for both Android and iOS.</p>
+
+            <b>2. Understanding XML and Java/Kotlin</b>
+
+            <p>In web development, HTML and CSS handle the layout and styling of websites, while JavaScript adds
+            interactivity. Similarly, in Android development, XML is used for designing the app's layout, while
+            Java/Kotlin is employed to implement the logic behind the app's functionality.
+</p>
+            <b>3. Tips from Experience</b>
+            <p> - Invest in a laptop with at least 4GB of RAM, preferably 8GB, for optimal performance.
+            - Consider using a laptop equipped with an SSD (Solid State Drive) to enhance file reading speed and overall
+            performance.
+            - Instead of relying solely on Android Virtual Devices (AVDs), use your physical Android device in developer
+            mode for testing to save resources.</p>
+
+            <b>4. Free Learning Resources</b>
+                <p>-CodeWithHarry's "Android in One Video" on YouTube provides an excellent introduction to Android
+            development for Hindi-speaking learners.
+            - Explore Google's "Android Development Fundamentals" course for hands-on experience.
+            - CodeWithHarry's comprehensive YouTube playlist covers essential Android development topics.
+            - For a deeper dive, Udacity's "Developing Android Apps" course covers advanced topics such as notifications
+            and camera controls.
+            - Once you become proficient, you'll rely on official Android documentation and platforms like StackOverflow
+            to troubleshoot and find solutions.</p>
+
+
+            <b>5. Monetizing Your Skills</b>
+
+            <p>Now, let's discuss the exciting part <br>– how to make money with your Android development skills:
+
+            - Freelancing platforms like Freelancer, Fiverr, and Upwork offer opportunities to showcase your expertise
+            and earn income.
+            - Utilize Google's AdMob to display ads within your apps and generate passive income.
+            - Implement in-app purchases to offer premium features or items to users, enhancing your app's revenue
+            potential.
+            - Explore job or internship opportunities in Android development, particularly if you're a college student.
+            - Engage with Android developer communities on social media to offer your expertise and find freelance gigs.
+            </p>
+            <b>6. Additional Advice</b>
+            <p>Learn version control with tools like Git, which is crucial for collaboration in professional development.
+            - Familiarize yourself with databases such as Room or SQLite for local data storage and Firebase for
+            cloud-hosted apps.
+            - When monetizing through AdMob, research its monetization programs and understand its terms and conditions.
+            - If you're interested in game development, consider Unity and learn C# for programming.</p>
+<br>
+            Congratulations! You now have a roadmap to becoming a proficient Android developer. Remember that hard work
+            is the key ingredient for success in this field. For more learning resources and tech-related content, feel
+            free to visit my YouTube channel: [Insert Your Channel Link Here].
+
+            Thank you for embarking on this exciting journey into the world of Android development!
+
+            **Happy Coding!**
+        </p>
+    </div>
+</body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">Creator - Sarthak Gangwar © 2023 Company, Inc</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/?hl=en"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2SdNQH74l7e6srwG9ZShlCPauj2XafHIq8bkLxBRNQ&s"
+            width="48" height="48" alt=""></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://leetcode.com/sarthakgangwar/"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAzFBMVEUAAAD////4nxu0srG7ubi4trVDQ0KMior7oRv/pRwAAARbW1tXV1d6enr8/PyOjo6BgYGioqL1mQD29vbU1NTl5eXf399QUFCoqKjo2MddPA3GgRlnQxHajRo0NDT/qRwjIiLrmBxnZ2eDVhNsRgwODg48PDzQx74kAACOXBKmbBYbEwZILwxWOA7k0L3jya1yPgC7eRg1Iwo9KAkjFgTHx8crKyubaBm+mG1QLgDy6N4rHAnrrGPls3zrplDJtqPnwZjrnTMZAACqZwBPegpPAAADwUlEQVRoge2ae1vaMBTGe0OacnMgCNZSq1RHhW2gwqa77/t/pzXTZ6TJKSbk0md7+v4bHn+ec96kyUks659X2vM877gSdHtgY42uzaNbXftZw2llaNv2qkPbA7NZv7RJXZpEt+zK2BS6e2oQ3S2yR2llaLtjDN2m0W+Moalam0S3afTYGJqJ2iCarrU5NGOzCtG1w/9fNF3rm7eVoSd9FM0DE2jGZpO+7/jIz/TTQTQWcuaa0adlaCePPbzViWYc/u4vGoeeLPShmTV84hDoPHTnzBy6X0Bj+FITem/CX+C+FvglBxrDNaQdmlxYBuAA2kmiKEocRNdcNZyx2ftovkwDK0iX84SiK3Y7M69vPhCjVw4NV2g4JuFucTwIka60c+xIVzRcUeRMwl3gR0zkSuCMzSA0m3ZnbQrNwlEo/UFnPpolaItJu3MniRY6+BQNh87l0Fw226kQuSRbEF2E+1IbiVNOm+0U7NLuRzLtj+lAFE26PZZJeToSR+PIY7y4+7HUrvVBwOGkrqJ80xhKLWudQ6J+1v295GaZKnZD7q8JqVcdmgrbKPr40For0AmJfjCK3pDogVF0cYLB/dnNkYA2AmyPQA9Bcs/1BOT2+OlkuZsQetxwhdRweW+QLoZEtY+AH4iiczjvkjwd7k95yxNFu67X4mOTH+4TYLwpHHYeOFQ7iG3vZ/cOYXO2PV+L+yB2j49N1nsEjHcOqHeD8xqn4HNgcqSHeI13+0bOb+j/bXuiWee1eXG/BBXcao+9hoA8lxtd/IS2oV9ctJoCal1wo60pyQYXdI0qfL/Nteb/qLhd45yaqmRXCB9XCe9WCKc26OAWokTprWy7gz4K8l6rr1dJEmVy9/8b+gjM92RoG+MOL0Jy3T2mw8RR8yB7OX/7SK7BxnTMX4dnu76DZI+LPge/ariMbPZIXtw0afj+mm8V9pnYmbbX7dtYZX+NPpDujTwroKVzbgFpLzNcRjVzIwUXpJxwCu1IzrEyOOR2Bn2lAg0Yjq35VhOaA07bTB0acPvHT8ToMtIWNRa9wj064ewJDwRPs5C5nVOKZtf2z8hPonAVRglzLak2aiwq7V/6+DIIuA/VgKanGmaDQlqePZDw7lfg/lkfupD2SVnUGhJOwQclYat2OKlO9wUNVtv3Z/rQlnX97XHw+P0HiNb6xATr569+H3rnkG8OM71krEWIEEuOQ9krSD7drZyYWFR8P3ZWZshY9+erfDFFWPnSujrX+pCJVbBenM1ms7PF2sjTtVq1atWqVatWrVrm9RuFPUgxoU+TWAAAAABJRU5ErkJggg=="
+            width="44" height="44" alt=""></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/sarthak-gangwar-03730a245"><img
+            src="data:image/png;base64,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"
+            width="44" height="44" alt=""></a></li>
+    </ul>
+  </footer>
+</html>

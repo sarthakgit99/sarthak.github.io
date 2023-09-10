@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        .para2 {
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 5px;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="website1.html">Sarthak</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/reachus.html">Reach us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/web.html">WEB DEV MERN</a></li>
+                            <li><a class="dropdown-item" href="/and.html">Android programming</a></li>
+                            <li><a class="dropdown-item active" href="/dsc.html">Data Science</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/reachus.html">Join us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="para2">
+        <h2>Demystifying Data Science: Unleashing the Power of Data</h2>
+        <p>
+            <img src="data:image/jpeg;base64,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"
+                alt="" style=" float: right; width: 400px; height: 250px;">
+        </p>
+        In our digital age, data has become the lifeblood of innovation and decision-making. Data science, the
+        multidisciplinary field that extracts knowledge and insights from data, has emerged as a powerhouse driving
+        advancements in virtually every industry.
+        </p>
+        <b>The Art of Data Exploration</b>
+        <p> At its core, data science begins with data exploration. This phase involves collecting, cleaning, and
+        structuring raw data to prepare it for analysis. This meticulous process ensures that the data is reliable and
+        accurate, setting the foundation for meaningful discoveries.</p>
+        <b>The Alchemy of Analysis</b>
+        <p>  Once data is primed, the real magic of data science unfolds through analysis. Data scientists employ various
+        techniques, from statistical analysis to machine learning algorithms, to uncover patterns, trends, and
+        correlations within the data. These insights can drive informed decisions, optimize processes, and even predict
+        future outcomes.
+</p>
+        <b>From Descriptive to Predictive</b>  
+        <p>Data science offers a spectrum of capabilities, ranging from descriptive analytics, which helps us understand
+        what happened in the past, to predictive analytics, which empowers us to forecast future events. Businesses
+        leverage predictive models for demand forecasting, risk assessment, and customer behavior prediction.</p>
+        
+            <b>
+                The Role of Machine Learning
+            </b>
+        <p>
+            Machine learning, a subset of data science, has gained immense prominence. It enables computers to learn from
+        data and make predictions or decisions without explicit programming. Applications span from recommendation
+        systems powering Netflix to self-driving cars navigating our streets.
+        </p>
+        
+        <b>
+            Data-Driven Decision-Making
+        </b>
+        <p>
+            Data science has transformed decision-making across sectors. Healthcare professionals analyze patient data to
+        tailor treatments, finance experts optimize investments, and marketers use customer data to personalize
+        experiences. Governments harness data science for policy-making, disaster response, and urban planning.
+        </p>
+        
+        <b>
+            Ethics and Responsibility
+        </b>
+        <p>
+            As data science advances, ethical considerations come to the forefront. Responsible data usage, privacy
+        protection, and bias mitigation are critical concerns. Data scientists play a pivotal role in ensuring that
+        their work adheres to ethical standards and benefits society as a whole.
+        </p>
+        
+        <b>
+            Continuous Learning
+        </b>
+        <p>
+             In the ever-evolving field of data science, continuous learning is paramount. Data scientists stay updated with
+        the latest tools, techniques, and trends. Online courses, certifications, and communities foster knowledge
+        exchange.
+
+        </p>
+       <b>
+        The Future of Data Science
+       </b>
+        <p>
+            As we march into the future, data science will continue to shape our world. It will drive innovations in
+        artificial intelligence, healthcare, sustainability, and more. Data, once a dormant resource, is now a dynamic
+        force propelling us toward a data-driven future.
+
+        In conclusion, data science is not just a buzzword; it's a transformative force reshaping industries and our
+        lives. It empowers us to extract valuable insights from the vast sea of data that surrounds us. Embracing data
+        science is not just a choice; it's a necessity for thriving in the data-driven era.
+        </p>
+    </div>
+</body>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">Creator - Sarthak Gangwar © 2023 Company, Inc</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/?hl=en"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2SdNQH74l7e6srwG9ZShlCPauj2XafHIq8bkLxBRNQ&s"
+                        width="48" height="48" alt=""></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://leetcode.com/sarthakgangwar/"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAzFBMVEUAAAD////4nxu0srG7ubi4trVDQ0KMior7oRv/pRwAAARbW1tXV1d6enr8/PyOjo6BgYGioqL1mQD29vbU1NTl5eXf399QUFCoqKjo2MddPA3GgRlnQxHajRo0NDT/qRwjIiLrmBxnZ2eDVhNsRgwODg48PDzQx74kAACOXBKmbBYbEwZILwxWOA7k0L3jya1yPgC7eRg1Iwo9KAkjFgTHx8crKyubaBm+mG1QLgDy6N4rHAnrrGPls3zrplDJtqPnwZjrnTMZAACqZwBPegpPAAADwUlEQVRoge2ae1vaMBTGe0OacnMgCNZSq1RHhW2gwqa77/t/pzXTZ6TJKSbk0md7+v4bHn+ec96kyUks659X2vM877gSdHtgY42uzaNbXftZw2llaNv2qkPbA7NZv7RJXZpEt+zK2BS6e2oQ3S2yR2llaLtjDN2m0W+Moalam0S3afTYGJqJ2iCarrU5NGOzCtG1w/9fNF3rm7eVoSd9FM0DE2jGZpO+7/jIz/TTQTQWcuaa0adlaCePPbzViWYc/u4vGoeeLPShmTV84hDoPHTnzBy6X0Bj+FITem/CX+C+FvglBxrDNaQdmlxYBuAA2kmiKEocRNdcNZyx2ftovkwDK0iX84SiK3Y7M69vPhCjVw4NV2g4JuFucTwIka60c+xIVzRcUeRMwl3gR0zkSuCMzSA0m3ZnbQrNwlEo/UFnPpolaItJu3MniRY6+BQNh87l0Fw226kQuSRbEF2E+1IbiVNOm+0U7NLuRzLtj+lAFE26PZZJeToSR+PIY7y4+7HUrvVBwOGkrqJ80xhKLWudQ6J+1v295GaZKnZD7q8JqVcdmgrbKPr40For0AmJfjCK3pDogVF0cYLB/dnNkYA2AmyPQA9Bcs/1BOT2+OlkuZsQetxwhdRweW+QLoZEtY+AH4iiczjvkjwd7k95yxNFu67X4mOTH+4TYLwpHHYeOFQ7iG3vZ/cOYXO2PV+L+yB2j49N1nsEjHcOqHeD8xqn4HNgcqSHeI13+0bOb+j/bXuiWee1eXG/BBXcao+9hoA8lxtd/IS2oV9ctJoCal1wo60pyQYXdI0qfL/Nteb/qLhd45yaqmRXCB9XCe9WCKc26OAWokTprWy7gz4K8l6rr1dJEmVy9/8b+gjM92RoG+MOL0Jy3T2mw8RR8yB7OX/7SK7BxnTMX4dnu76DZI+LPge/ariMbPZIXtw0afj+mm8V9pnYmbbX7dtYZX+NPpDujTwroKVzbgFpLzNcRjVzIwUXpJxwCu1IzrEyOOR2Bn2lAg0Yjq35VhOaA07bTB0acPvHT8ToMtIWNRa9wj064ewJDwRPs5C5nVOKZtf2z8hPonAVRglzLak2aiwq7V/6+DIIuA/VgKanGmaDQlqePZDw7lfg/lkfupD2SVnUGhJOwQclYat2OKlO9wUNVtv3Z/rQlnX97XHw+P0HiNb6xATr569+H3rnkG8OM71krEWIEEuOQ9krSD7drZyYWFR8P3ZWZshY9+erfDFFWPnSujrX+pCJVbBenM1ms7PF2sjTtVq1atWqVatWrVrm9RuFPUgxoU+TWAAAAABJRU5ErkJggg=="
+                        width="44" height="44" alt=""></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/sarthak-gangwar-03730a245"><img
+                        src="data:image/png;base64,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"
+                        width="44" height="44" alt=""></a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+<footer>
+    <p>&copy; 2023 Web Development Blog</p>
+</footer>
+</html>
